@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: "100vh";
+    font-family: Arial, sans-serif;
+  }
+
+
+  
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+.ButtonBase__ButtonContainer-sc-11c179a3-3 {
+  display: inline-block;
+  animation: bounce 1.5s infinite ease-in-out;
+}
